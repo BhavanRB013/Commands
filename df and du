@@ -1,0 +1,27 @@
+Disk usage
+df and du
+
+df
+	stands for disk free means gives info about space available in disk
+1st	shows the file system path. the important one is nvmexxx it shows how
+	much space it totally have
+
+
+-h	human readable format
+-T	type format
+-x var	to exclude something like ignore
+
+drawback	It doesn't show how much space is actually used by a 
+		directory
+
+du
+	we can specify the path with du so it shows the actuall space used
+	used inside that directory
+
+-h	human readable format
+-s	summary 
+-c	gives total
+--max-depth=value	how much deep it can go. whether it should go 1 folder
+			or upto given value
+
+drawback	It floods the terminal with files

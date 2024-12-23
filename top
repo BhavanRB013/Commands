@@ -1,0 +1,40 @@
+top command 
+	This command will provide the snapshot of current resources that are being used with 3 seconds (default)
+	By clicking q we can quit out
+	Top provides two division 
+		1. statistics at top
+		2. Process at bottom
+*statistics at top
+
+1st	shows load average and uptime.
+	Load average refers to the working of cpu whether it is working 100% or not. If i have 4core cpu then my 100% will be 4.
+
+2nd	statistics about how many task running in system memory
+	a child process is a process which is start by another process press  shift+v to see this relation.
+	the systemd is the one which creates other process 
+	But a zombie process is when a child process finishes and wanted to free up the space and resources and need an instruction from parent
+	process but let's say before giving an instruction to close the child process the parent get closed then the child process awaits for the
+	process forever.
+
+3rd	statistics about cpu. us refers to user space. sy refers to kernel space. ni refers to niceness which is altering scheduling priority on cpu
+	id refers to idle the higher the idle value the less busy cpu is. wa refers to waiting tells about how many task are waiting for input.
+	hi and si refers to hardware and software interrupts. st refers to how much time a virtual cpu has been waiting for the physical cpu.
+
+4th	memory information
+
+5th	swap information which is memory located on hard drive
+
+*process table
+
+	Here we can see PID(process id), USER, PR(priority), NI(niceness), VIRT(virtual memory used by task), RES(Physical memory used by task),
+	SHR(shared memory), TIME (tells how much time cpu has spent on that particular task)
+
+P	refers to sort the task with respect to CPU usage
+
+M	sort the task with memory usage
+
+k	to kill a process esc to back
+
+d	gives delay we can set our own
+
+
