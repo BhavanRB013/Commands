@@ -3,6 +3,7 @@ df and du
 
 df
 	stands for disk free means gives info about space available in disk
+
 1st	shows the file system path. the important one is nvmexxx it shows how
 	much space it totally have
 

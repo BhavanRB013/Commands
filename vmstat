@@ -1,0 +1,52 @@
+vmstat
+	reports information about process, memory, paging, block IO, traps, 
+disks and cpu activity
+
+vmstat 2 4	Give info with 2sec interval and about 4 counts
+
+	In normal o/p it shows buffer and cache
+
+-a	Gives info about active and inactive
+
+o/p
+
+r	it shows runqueue which means the process that are waiting for the 
+	cpu time
+
+b	it shows process that are waiting for the resources like i/O, disk or
+	network
+
+swpd	It tells about amount of swap space used
+
+free	amount of unused memory
+
+inactive	it shows recently unused memory that can be reclaimed
+
+active	recently used memory
+
+buff	file buffer in cache
+
+cache	page cache in RAM
+
+si 	swap in where data moved from swap to RAM
+
+so	swap out data moved from RAM to swap 
+[[ Hign number of si and so means more RAM is used ]]
+
+bi	Block in tells number of blocks per second from block device
+
+bo	Block out tells number of blocs send to block device
+
+in	interrupt per second
+
+cs	number of context switching per seconds
+
+us	percentage of cpu usage from user process
+
+sy	percentage of cpu usage from systtem process
+
+id	percentge of time cpu spent
+
+wa	throughput lost from waiting for i/o
+
+st	stolen time by virtual machine 
