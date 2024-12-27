@@ -1,0 +1,15 @@
+cut 	
+	removes section from each line
+
+-c	select by character
+
+-d	select by delimeter
+
+-f	select by field
+
+-b	select by bytes	
+
+[[ b and c are going to give same output ]]
+ 
+cut -d "." -f1 file.txt 	prints the 1st field by separating deliter 
+				with respect to period
