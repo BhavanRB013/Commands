@@ -1,0 +1,16 @@
+Mail
+
+To install mail i ubbuntu/debian 
+	sudo apt intall mailutils
+
+Package connfiguration
+	Press tab to select ok
+	Select internet site
+	Type system mail name(hostname) which can be get by entering 'hostname -f'
+command on terminal
+	
+Referred from
+	https://www.youtube.com/watch?v=uNss377DK88 Tony Teaches Tech
+	https://www.youtube.com/watch?v=bjkyUPZzYzk	WebTuts Aditi
+
+
