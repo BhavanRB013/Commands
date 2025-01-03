@@ -1,0 +1,18 @@
+tar
+	combine multiple file into one archive file
+	The difference between zip and archive is that the size will not
+	compressed in tar it only stores in archieve folder
+
+-c	create a new archieve folder
+
+-f	To provide a file name
+
+-t	List files inide a tar without extracting
+
+-v	verbrose to see individual info of files
+
+-x	To extract the tar file
+
+ex
+	tar -cf file_name.tar folder_to_tar
+	tar -tf tar_folder
