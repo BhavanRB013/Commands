@@ -1,0 +1,9 @@
+gzip
+
+	It compress the file to save space
+
+gunzip	to extract the compressed folder
+
+ex 
+	gzip folder_name
+	gunzip folder_name.gz	

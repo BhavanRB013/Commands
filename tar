@@ -13,6 +13,10 @@ tar
 
 -x	To extract the tar file
 
+-z      it represents copress. even though tar is used to archieve files
+        by using this we can compress it used gzip
+
 ex
 	tar -cf file_name.tar folder_to_tar
 	tar -tf tar_folder
+	tar -czf foder_name.tar.gz folder_to_tar_zip
