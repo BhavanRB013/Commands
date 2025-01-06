@@ -1,0 +1,17 @@
+grep
+	Glogal regular expression is used to find text inside a file
+at default grep is case sensitive
+
+-v	exclude the given word and print the lines
+
+-n	gives line number that the word was found
+
+-c	gives the count of the word repeated
+
+-i	tells not to care about case sensitivity
+
+-r	it allows to recursively check the files even through directories
+
+ex
+grep Port /etc/ssh/sshd_config  gives the line containing Port
+grep -ri error /var/log
